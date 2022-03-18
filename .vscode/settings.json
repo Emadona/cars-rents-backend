@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    ".vscode": true,
+    "tsconfig.json": true,
+    "package-lock.json": true
+  },
+  "mochaExplorer.files": "test/**/*.spec.ts",
+  "mochaExplorer.require": "ts-node/reqister"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "car_rent_app_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/app.ts",
+    "test": "mocha --require ts-node/register --watch-extensions ts 'test/cars_rent/data/repository/CarsRent.spec.ts' -timeout 25000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/chai": "^4.3.0",
+    "@types/chai-as-promised": "^7.1.5",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/mocha": "^9.1.0",
+    "@types/mongoose": "^5.7.29",
+    "@types/mongoose-paginate-v2": "^1.3.9",
+    "@types/redis": "^2.8.25",
+    "@types/supertest": "^2.0.11",
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.2.0",
+    "mongoose": "^5.9.21",
+    "supertest": "^6.2.2",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "mongoose-paginate-v2": "^1.3.13",
+    "redis": "^3.0.2"
+  }
+}
